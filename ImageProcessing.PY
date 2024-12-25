@@ -25,7 +25,7 @@ def convolution(image, kernel):
 
 # Lenna resmini yükle ve gri tonlamalıya dönüştür
 try:
-    image = Image.open(r'C:\Users\BENAN\Desktop\HW2- Tek çıktıda\Lenna.png').convert('L')  # Eğer Lenna resmini farklı bir yol ile kullanıyorsanız, bu kısmı değiştirin
+    image = Image.open(r'').convert('L') 
     image = np.array(image)
 except Exception as e:
     print(f"Image loading failed: {e}")
